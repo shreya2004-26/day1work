@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.t1MainContainer {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6682a9;
+}
+.t1Container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px 40px;
+  color: black;
+  border-radius: 10px;
+}
+.t1InputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input {
+  padding: 8px 15px;
+  color: rgba(0, 0, 0, 0.737);
+  font-size: 15px;
+  outline: none;
+}
+button {
+  width: fit-content;
+  padding: 8px 12px;
+  background-color: #876cad;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 550;
+  color: #0d1114;
+  border-style: none;
+  cursor: pointer;
+}
+p {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  color: #0d1114;
+}
