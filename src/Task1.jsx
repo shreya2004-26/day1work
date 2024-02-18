@@ -22,7 +22,7 @@ const Task1 = () => {
     <>
       <div className="t1MainContainer">
         <div className="t1Container">
-          <p>Hello</p>
+          <p>Registration Form</p>
           <div className="t1InputContainer">
             <input
               type="text"
